@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  SiteFan
 //
 //  Created by Wiley Wimberly on 8/18/14.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WebViewController : UIViewController
 
+@property (nonatomic, strong) NSURL *url;
 
 @end
-

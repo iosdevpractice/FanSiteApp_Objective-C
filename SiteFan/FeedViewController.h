@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FeedViewController.h
 //  SiteFan
 //
 //  Created by Wiley Wimberly on 8/18/14.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface FeedViewController : UITableViewController
 
 @end
-
